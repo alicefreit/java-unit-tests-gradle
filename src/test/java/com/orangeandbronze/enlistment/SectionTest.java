@@ -119,7 +119,7 @@ public class SectionTest {
         });
     }
 
-  /*  @Test
+    @Test
     public void check_missing_prerequisite() {
         // Dado os períodos válidos para as disciplinas
         Period period1 = new Period(830, 1000);  // Período das 08:30 às 10:00
@@ -150,5 +150,5 @@ public class SectionTest {
         assertThrows(NotTakenPreRequisiteException.class, () -> {
             section2.checkTakenPrerequisite(takenSubjects);  // Verificando se o aluno tem o pré-requisito de MAT101
         });
-    } */
+    }
 }
