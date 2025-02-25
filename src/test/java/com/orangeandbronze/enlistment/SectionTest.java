@@ -130,7 +130,7 @@ public class SectionTest {
         Schedule schedule2 = new Schedule(Days.MTH, period2);
 
         // Criando salas e disciplinas
-        Room room1 = new Room("101", 30);
+        Room room1 = new Room("11", 30);
         Room room2 = new Room("102", 30);
 
         Subject subject1 = new Subject("MAT101", 3); // Pre-requisito
